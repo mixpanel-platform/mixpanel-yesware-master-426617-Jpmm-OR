@@ -95,6 +95,7 @@
 
       // get all event dropdown inputs and run segmentation queries segmented by "$email contains [search term]"
       function runQuery() {
+        debugger;
         // return error if no search term was submitted
         if (!companyName) {
           $('.confirm-text')
@@ -105,6 +106,7 @@
         }
         // if search term submitted run function
         else {
+          debugger;
           var data = {},
               eventNameCount = 0,
               eventNames = [event1, event2, event3, event4];
